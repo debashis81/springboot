@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+ http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="q" class="com.debashis.greatbrains.springboot.Question">
+		<constructor-arg value="32"></constructor-arg>
+		<constructor-arg value="Who is your favorite cricketer?"></constructor-arg>
+
+		<constructor-arg>
+			<list>
+				<value>Sachin Tendulkar</value>
+				<value>Saurav Ganguly</value>
+				<value>Glenn Mcgrath</value>
+			</list>
+		</constructor-arg>
+
+	</bean>
+
+
+</beans>
