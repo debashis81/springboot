@@ -10,9 +10,10 @@
 
 		<constructor-arg>
 			<list>
-				<value>Sachin Tendulkar</value>
-				<value>Saurav Ganguly</value>
-				<value>Glenn Mcgrath</value>
+				<value>Sunil Gavaskar</value>
+				<value>Anil Kumble</value>
+				<value>Viv Richards</value>
+				<value>Debashis Nandi</value>
 			</list>
 		</constructor-arg>
 
